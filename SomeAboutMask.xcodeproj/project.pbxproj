@@ -13,6 +13,8 @@
 		0019CEEF1D61960500D1C4DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0019CEED1D61960500D1C4DB /* Main.storyboard */; };
 		0019CEF11D61960500D1C4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0019CEF01D61960500D1C4DB /* Assets.xcassets */; };
 		0019CEF41D61960500D1C4DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0019CEF21D61960500D1C4DB /* LaunchScreen.storyboard */; };
+		0019CEFD1D61962F00D1C4DB /* MaskImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0019CEFC1D61962F00D1C4DB /* MaskImageViewController.m */; };
+		0019CF001D619FFC00D1C4DB /* MaskLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0019CEFF1D619FFC00D1C4DB /* MaskLabelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0019CEF01D61960500D1C4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0019CEF31D61960500D1C4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0019CEF51D61960500D1C4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0019CEFB1D61962F00D1C4DB /* MaskImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskImageViewController.h; sourceTree = "<group>"; };
+		0019CEFC1D61962F00D1C4DB /* MaskImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskImageViewController.m; sourceTree = "<group>"; };
+		0019CEFE1D619FFC00D1C4DB /* MaskLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskLabelViewController.h; sourceTree = "<group>"; };
+		0019CEFF1D619FFC00D1C4DB /* MaskLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskLabelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				0019CEE81D61960500D1C4DB /* AppDelegate.m */,
 				0019CEEA1D61960500D1C4DB /* ViewController.h */,
 				0019CEEB1D61960500D1C4DB /* ViewController.m */,
+				0019CEFB1D61962F00D1C4DB /* MaskImageViewController.h */,
+				0019CEFC1D61962F00D1C4DB /* MaskImageViewController.m */,
+				0019CEFE1D619FFC00D1C4DB /* MaskLabelViewController.h */,
+				0019CEFF1D619FFC00D1C4DB /* MaskLabelViewController.m */,
 				0019CEED1D61960500D1C4DB /* Main.storyboard */,
 				0019CEF01D61960500D1C4DB /* Assets.xcassets */,
 				0019CEF21D61960500D1C4DB /* LaunchScreen.storyboard */,
@@ -149,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0019CF001D619FFC00D1C4DB /* MaskLabelViewController.m in Sources */,
 				0019CEEC1D61960500D1C4DB /* ViewController.m in Sources */,
 				0019CEE91D61960500D1C4DB /* AppDelegate.m in Sources */,
+				0019CEFD1D61962F00D1C4DB /* MaskImageViewController.m in Sources */,
 				0019CEE61D61960500D1C4DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
